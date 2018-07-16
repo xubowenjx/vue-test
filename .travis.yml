@@ -35,5 +35,5 @@ env:
    - GH_REF: github.com:xubowenjx/vue-test.git
    - U_NAME: xubowenjx
    - U_EMAIL: 286129936@qq.com
-   - GH_TOKEN: 52208476fb7727c40b212c3463f1860add65a449
+   - GH_TOKEN: d1293a723d134b6b6dea09569b8499837f4c22e5
    - P_BRANCH: gh-pages
