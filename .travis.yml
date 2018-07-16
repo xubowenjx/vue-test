@@ -17,7 +17,7 @@ script:
   - npm run build
  
 after_script:
-  - cd ./dist
+  - cd ./docs
   - git init
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
@@ -32,5 +32,8 @@ branches:
     - master
 env:
  global:
-   # 我将其添加到了travis-ci的环境变量中
-   #- GH_REF: github.com/yimogit/metools.git
+   - GH_REF: git@github.com:xubowenjx/vue-test.git
+   - U_NAME: xubowenjx
+   - U_EMAIL: 286129936@qq.com
+   - GH_TOKEN: 52208476fb7727c40b212c3463f1860add65a449
+   - P_BRANCH: gh-pages
