@@ -32,5 +32,5 @@ branches:
     - master
 env:
  global:
-   - GH_REF: github.com:xubowenjx/vue-test.git
+   - GH_REF: github.com/xubowenjx/vue-test.git
    - P_BRANCH: gh-pages
