@@ -32,7 +32,7 @@ branches:
     - master
 env:
  global:
-   - GH_REF: git@github.com:xubowenjx/vue-test.git
+   - GH_REF: github.com:xubowenjx/vue-test.git
    - U_NAME: xubowenjx
    - U_EMAIL: 286129936@qq.com
    - GH_TOKEN: 52208476fb7727c40b212c3463f1860add65a449
