@@ -33,7 +33,4 @@ branches:
 env:
  global:
    - GH_REF: github.com:xubowenjx/vue-test.git
-   - U_NAME: xubowenjx
-   - U_EMAIL: 286129936@qq.com
-   - GH_TOKEN: d1293a723d134b6b6dea09569b8499837f4c22e5
    - P_BRANCH: gh-pages
