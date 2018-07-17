@@ -19,10 +19,10 @@ script:
 after_script:
   - cd ./docs
   - git init
-  - git config user.name "${U_NAME}"
-  - git config user.email "${U_EMAIL}"
+  - git config user.name "xubowenjx"
+  - git config user.email "286129936@qq.com"
   - git add -A
-  - git commit -m "Update tools"
+  - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:${P_BRANCH}
 # E: Build LifeCycle
  
@@ -32,5 +32,4 @@ branches:
     - master
 env:
  global:
-   - GH_REF: github.com/xubowenjx/vue-test.git
-   - P_BRANCH: gh-pages
+   - GH_REF:  github.com/xubowenjx/xubowenjx/vue-test.git
