@@ -17,6 +17,7 @@ script:
   - npm run build
  
 after_script:
+  - cp favicon.ico docs/favicon.ico
   - cd ./docs
   - git init
   - git config user.name "xubowenjx"
